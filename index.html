@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <!------------------------------------navStart-->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#">Accidic Creativity</a>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                logo
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-2 active"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#contact">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="login-button">login</a>
+          <button
+          class="navbar-toggler pe-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+      </nav>
+
+      <!--------------------------------------------------navEnd-->
+      <div class=" container d-flex align-items-center justify-content-center fs-1 text-white flex-columns">
+        <h1>welcome to Accidic</h1>
+        <h2>Creativity v5</h2>
+        <div class="buttons">
+          <button type="submit" class="btn btn-danger">Sign In</button>
+          <button type="submit" class="btn btn-success">Login</button>
+        </div>
+      </div>
+    </header>
+<!------------------------------------------service-section----------------------------->
+  <section id="service" class="service">
+<div class="container text-align-center d-flex justify-content-center align-items-center flex-column">
+  <h1 class="text-white">service</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="1.jpg" class="card-img-top" alt="html">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BOOTSTRAP</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </section>
+  <!------------------------------------about-section------------------------>
+  
+  <section id="about" class="about section-padding>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="about-image">
+            <img src="1.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12 ps-lg-5 mt-md-5">
+          <div class="about-text px-5">
+            <h2>we provide best <br>quality ever</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis officiis incidunt, nesciunt, blanditiis facere nihil assumenda, veritatis molestiae laboriosam quae veniam velit hic laudantium. Autem consectetur odit asperiores in iste velit laudantium sed eum doloremque, molestias sequi nam reiciendis soluta natus architecto? Recusandae cumque quaerat libero distinctio accusamus consectetur consequuntur!</p>
+            <a href="#" class="btn btn-warning"> learn more</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!------------------------------------------section-portfolio--->
+   <section id="portfolio" class="portfolio section-padding">
+    <div class="container  p-40">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2 ">
+            <div class="card-body text-dark">
+              <div class="image-area mb-4">
+                <img src="2.jpg" alt="" class="img-fluid">
+                <h3 class="card-title">HTML</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt necessitatibus corrupti laboriosam nostrum non perferendis eum nam est aut?</p>
+                <button class="btn btn-warning btn-text-dark">learn more</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="image-area mb-4">
+                <img src="2.jpg" alt="" class="img-fluid">
+                <h3 class="card-title">CSS</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt necessitatibus corrupti laboriosam nostrum non perferendis eum nam est aut?</p>
+                <button class="btn btn-warning btn-text-dark">learn more</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="image-area mb-4">
+                <img src="2.jpg" alt="" class="img-fluid">
+                <h3 class="card-title">BOOTSTRAP</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt necessitatibus corrupti laboriosam nostrum non perferendis eum nam est aut?</p>
+                <button class="btn btn-warning btn-text-dark">learn more</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+        <!------------------------------------------section-contact us--->
+        <section id="contact" class="contact section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+              <h2>contact us </h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Molestias temporibus harum consectetur rerum maxime. Voluptas.</p>
+
+              </div>
+            </div>
+            <div class="row m-0">
+            <div class="col-md-12 p-0 pt-4 pb-4 ">
+              <form action="#" class="bg-light p-4 m-auto">
+                <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" required placeholder="your full name">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" required placeholder="your full name">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea class="form-control" rows="3" placeholder="your query here" required></textarea>
+                    <button type"button" class="btn btn-warning btn-expand-lg btn-block mt-3">send now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-----------------------------------section-footer-->
+        <footer class="bg-dark p-2 text-center">
+          <div class="container">
+            <p class="text-white">All Right Reserved @Accidic Creativity 2024</p>
+          </div>
+        </footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
